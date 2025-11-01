@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paper-display
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: paper-display
+  template:
+    metadata:
+      labels:
+        app: paper-display
+    spec:
+      containers:
+      - name: web
+        image: meriem12345/paper-display-app:latest
+        ports:
+        - containerPort: 5000
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 5000
+          initialDelaySeconds: 10
+          periodSeconds: 10
