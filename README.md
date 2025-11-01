@@ -1,4 +1,4 @@
-<img width="1255" height="780" alt="cap5" src="https://github.com/user-attachments/assets/5fe19f05-50c2-4819-8691-d02b728594ae" /># AI Research Papers Display App
+# AI Research Papers Display App
 
 A containerized Flask application for managing and displaying AI research papers with full CI/CD pipeline and infrastructure as code.
 
