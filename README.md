@@ -9,6 +9,7 @@ Une application Flask conteneurisée pour gérer et afficher des articles de rec
 - [Démarrage rapide](#démarrage-rapide)
 - [Options de déploiement](#options-de-déploiement)
 - [Pipeline CI/CD](#pipeline-cicd)
+- [Monitoring avec Prometheus & Grafana](#monitoring-avec-prometheus--grafana)
 - [Démonstration](#démonstration)
 
 ## 🎯 Vue d'ensemble
