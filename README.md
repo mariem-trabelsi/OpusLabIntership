@@ -158,7 +158,7 @@ minikube service paper-display-service --url
 
 ![Déploiement K8s](https://github.com/user-attachments/assets/3d806d5b-a91b-4645-b1cd-0a46970f9bda)
 
-![Services et Pods](https://github.com/user-attachments/assets/92cf7f5e-a800-4208-bcb4-3ecca9ded96a)
+
 
 ![Vérification des pods](https://github.com/user-attachments/assets/503daa6c-ca68-4d57-b86a-563cdb1175cc)
 
