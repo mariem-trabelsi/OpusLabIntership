@@ -122,7 +122,7 @@ docker run -p 5000:5000 paper-display-app
 
 ![Pipeline corrigé](https://github.com/user-attachments/assets/afda63a7-3d42-4310-b702-89e928392f15)
 
-### Vérification de l'image dans Docker Hub
+### Image Docker publiée sur Docker Hub
 
 ![Pipeline réussi](https://github.com/user-attachments/assets/1febc4bc-4388-45fe-acbf-37e17a9fd9bf)
 
@@ -130,7 +130,7 @@ docker run -p 5000:5000 paper-display-app
 
 ![Étapes de déploiement](https://github.com/user-attachments/assets/921cbdf2-8fa9-416a-b4fd-5d42320495f7)
 
-### Image Docker publiée sur Docker Hub
+
 
 ![Image Docker Hub](https://github.com/user-attachments/assets/9ec2ec1a-2a25-460a-80cb-48bed40733f1)
 
