@@ -74,6 +74,10 @@ paper-display-app/
 ## Démo
 
 ### l'image de l'application :
+bash```
+docker build -t paper-display-app .
+docker run -p 5000:5000 paper-display-app
+```
 <img width="1291" height="181" alt="cap1" src="https://github.com/user-attachments/assets/0c95818b-ad98-43b6-8fe5-8d1b18fbbc27" />
 
 <img width="1655" height="819" alt="cap2" src="https://github.com/user-attachments/assets/16c7e1f5-5647-46b1-9366-60a84ff65e4b" />
