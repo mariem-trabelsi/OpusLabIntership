@@ -237,9 +237,3 @@ L'application est déjà **production-ready** avec CI/CD, Kubernetes et monitori
 | **Alerting intelligent** | Configurer **Prometheus Alertmanager** → alertes Slack/Email en cas de CPU > 80%, pod crash, etc. | Réactivité opérationnelle 24/7 |
 | **Métriques applicatives custom** | Ajouter un endpoint `/metrics` dans Flask (via `prometheus_client`) → exposer : requêtes/s, latence, erreurs 500 | Observabilité métier complète |
 | **Déploiement Cloud (Azure AKS)** | Migrer de Minikube vers **Azure Kubernetes Service (AKS)** + **Azure Container Registry** | Scalabilité horizontale, haute disponibilité, coûts optimisés |
-
-> **Objectif final** : Un **observability stack complet** (métriques + logs + traces) sur **Azure Cloud**, avec **alerting proactif** et **métriques business**.
-
----
-
-**Tu as posé les bases d’un système moderne, scalable et observable — prêt pour la production !**
