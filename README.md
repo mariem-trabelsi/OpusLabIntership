@@ -126,6 +126,10 @@ docker run -p 5000:5000 paper-display-app
 
 ![Pipeline réussi](https://github.com/user-attachments/assets/1febc4bc-4388-45fe-acbf-37e17a9fd9bf)
 
+### Push vers main
+
+![Services et Pods](https://github.com/user-attachments/assets/92cf7f5e-a800-4208-bcb4-3ecca9ded96a)
+
 ### Kubernetes (k8s) – Local avec Minikube
 
 **Installation**
