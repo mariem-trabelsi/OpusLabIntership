@@ -195,9 +195,11 @@ helm install prometheus-stack prometheus-community/kube-prometheus-stack \
   --set grafana.adminPassword=admin123 \
   --set prometheus.prometheusSpec.serviceMonitorSelectorNilUsesHelmValues=false
 ```
-<img width="1150" height="154" alt="garafna" src="https://github.com/user-attachments/assets/033e7d76-9b52-4ddd-b048-d195e562ca60" />
 
 ![Vérification des pods](https://github.com/user-attachments/assets/503daa6c-ca68-4d57-b86a-563cdb1175cc)
+
+
+<img width="1150" height="154" alt="garafna" src="https://github.com/user-attachments/assets/033e7d76-9b52-4ddd-b048-d195e562ca60" />
 
 ![Application finale](https://github.com/user-attachments/assets/075e6eda-b2fb-45d7-ad29-80602c80b24e)
 
