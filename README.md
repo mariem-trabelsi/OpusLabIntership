@@ -163,6 +163,9 @@ minikube service paper-display-service --url
 
 ### Application déployée sur K8S
 
+<img width="874" height="112" alt="lance" src="https://github.com/user-attachments/assets/21737dec-1fbe-4a35-9fb0-6ef21c2370bb" />
+
+
 ![Déploiement K8s](https://github.com/user-attachments/assets/3d806d5b-a91b-4645-b1cd-0a46970f9bda)
 
 ### Monitoring Kubernetes (Minikube) avec Prometheus + Grafana
