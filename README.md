@@ -139,6 +139,12 @@ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stabl
 sudo install kubectl /usr/local/bin/kubectl
 ```
 **Déploiement**
+```bash
+minikube start
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+minikube service paper-display-service --url
+```
 
 ![Logs de build](https://github.com/user-attachments/assets/925d529f-cdd2-4b2a-866d-4ef515fa1e55)
 
@@ -161,12 +167,6 @@ sudo install kubectl /usr/local/bin/kubectl
 ![Application finale](https://github.com/user-attachments/assets/075e6eda-b2fb-45d7-ad29-80602c80b24e)
 
 ## 🔄 Options de déploiement
-
-### Avec Docker Compose
-
-```bash
-docker-compose up -d
-```
 
 ### Avec Kubernetes
 
