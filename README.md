@@ -197,6 +197,25 @@ helm install prometheus-stack prometheus-community/kube-prometheus-stack \
   --set prometheus.prometheusSpec.serviceMonitorSelectorNilUsesHelmValues=true
 ```
 
+#### 3. Accéder à Grafana
+```bash
+kubectl port-forward svc/prometheus-stack-grafana 3000:80 -n monitoring
+```
+
+#### 4. Configurer le Data Source (Prometheus)
+```bash
+PROM_IP=$(kubectl get svc -n monitoring prometheus-stack-kube-prom-prometheus -o jsonpath='{.spec.clusterIP}')
+echo "URL Prometheus : http://$PROM_IP:9090"
+```
+
+#### 5. Configurer le Data Source (Prometheus)
+Import de dashboard Pods (15760)
+
+#### 6. Configurer le Data Source (Prometheus)
+Voir les métriques de paper-display
+**namespace**: default
+**pod**: paper-display-...
+
 ![Vérification des pods](https://github.com/user-attachments/assets/503daa6c-ca68-4d57-b86a-563cdb1175cc)
 
 
