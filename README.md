@@ -201,7 +201,4 @@ helm install prometheus-stack prometheus-community/kube-prometheus-stack \
 
 <img width="1150" height="154" alt="garafna" src="https://github.com/user-attachments/assets/033e7d76-9b52-4ddd-b048-d195e562ca60" />
 
-![Application finale](https://github.com/user-attachments/assets/075e6eda-b2fb-45d7-ad29-80602c80b24e)
-
-
-
+<img width="1521" height="862" alt="image" src="https://github.com/user-attachments/assets/52c98c33-cce2-47ce-afa0-7b642837d9c9" />
