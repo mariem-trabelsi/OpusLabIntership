@@ -100,11 +100,7 @@ docker run -p 5000:5000 paper-display-app
 
 ![Application en cours d'exécution](https://github.com/user-attachments/assets/16c7e1f5-5647-46b1-9366-60a84ff65e4b)
 
-### Configuration des identifiants Docker Hub dans le dépôt GitHub
 
-![Secrets GitHub](https://github.com/user-attachments/assets/8677bbb7-3d36-460a-90a9-c7b837f5a13d)
-
-![Configuration des secrets](https://github.com/user-attachments/assets/ffeb63f0-e0fa-4b21-b84d-7aa0d816ca41)
 
 ### Création du pipeline CI/CD
 
@@ -113,6 +109,12 @@ docker run -p 5000:5000 paper-display-app
 **Échec initial dans le pipeline :** Problème d'accès au Docker Hub
 
 ![Erreur pipeline](https://github.com/user-attachments/assets/d98f3550-0b0c-4d46-8d80-fcb45d8d3ecb)
+
+### Configuration des identifiants Docker Hub dans le dépôt GitHub
+
+![Secrets GitHub](https://github.com/user-attachments/assets/8677bbb7-3d36-460a-90a9-c7b837f5a13d)
+
+![Configuration des secrets](https://github.com/user-attachments/assets/ffeb63f0-e0fa-4b21-b84d-7aa0d816ca41)
 
 ![Détails de l'erreur](https://github.com/user-attachments/assets/6ec11485-3c26-45a8-9b34-1ff3734c117c)
 
