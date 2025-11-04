@@ -166,25 +166,5 @@ minikube service paper-display-service --url
 
 ![Application finale](https://github.com/user-attachments/assets/075e6eda-b2fb-45d7-ad29-80602c80b24e)
 
-## 🔄 Options de déploiement
 
-### Avec Kubernetes
-
-```bash
-# Appliquer les manifests
-kubectl apply -f k8s/deployment.yaml
-kubectl apply -f k8s/service.yaml
-
-# Vérifier le déploiement
-kubectl get pods
-kubectl get services
-```
-
-## 🔐 Configuration du pipeline CI/CD
-
-1. **Fork le dépôt**
-2. **Configurer les secrets GitHub :**
-   - `DOCKER_USERNAME` : Votre nom d'utilisateur Docker Hub
-   - `DOCKER_PASSWORD` : Votre token d'accès Docker Hub
-3. **Push vers la branche main** pour déclencher le pipeline
 
