@@ -223,12 +223,9 @@ Voir les métriques de paper-display
 
 <img width="919" height="783" alt="promoteus" src="https://github.com/user-attachments/assets/e4531bb1-297b-4ec8-bb68-c366898f2d07" />
 
-<img width="734" height="567" alt="login" src="https://github.com/user-attachments/assets/59ecd5a5-941a-43d5-8946-ef0ffd760e2c" />
-
-
 <img width="1521" height="862" alt="image" src="https://github.com/user-attachments/assets/52c98c33-cce2-47ce-afa0-7b642837d9c9" />
 
-
+<img width="734" height="567" alt="login" src="https://github.com/user-attachments/assets/59ecd5a5-941a-43d5-8946-ef0ffd760e2c" />
 
 ---
 
