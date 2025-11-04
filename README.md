@@ -164,11 +164,35 @@ minikube service paper-display-service --url
 
 ![Déploiement K8s](https://github.com/user-attachments/assets/3d806d5b-a91b-4645-b1cd-0a46970f9bda)
 
+### Monitoring Kubernetes (Minikube) avec Prometheus + Grafana
+#### 1.Prérequis
+```bash
+# Minikube
+minikube start
 
+# kubectl
+kubectl version --short
+
+# Helm
+helm version --short
+```
+#### 2.Installer PROMETHEUS + GRAFANA (Monitoring Stack)
+```bash
+# Ajouter le repo Helm
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+
+# Créer namespace
+kubectl create namespace monitoring
+
+# Installer la stack complète
+helm install prometheus-stack prometheus-community/kube-prometheus-stack \
+  --namespace monitoring \
+  --set grafana.adminPassword=admin123 \
+  --set prometheus.prometheusSpec.serviceMonitorSelectorNilUsesHelmValues=false
+```
 
 ![Vérification des pods](https://github.com/user-attachments/assets/503daa6c-ca68-4d57-b86a-563cdb1175cc)
-
-### Application déployée
 
 ![Application finale](https://github.com/user-attachments/assets/075e6eda-b2fb-45d7-ad29-80602c80b24e)
 
