@@ -222,3 +222,24 @@ Voir les métriques de paper-display
 <img width="1150" height="154" alt="garafna" src="https://github.com/user-attachments/assets/033e7d76-9b52-4ddd-b048-d195e562ca60" />
 
 <img width="1521" height="862" alt="image" src="https://github.com/user-attachments/assets/52c98c33-cce2-47ce-afa0-7b642837d9c9" />
+
+
+
+---
+
+## Perspectives : Évolutions futures
+
+L'application est déjà **production-ready** avec CI/CD, Kubernetes et monitoring complet. Voici les **prochaines étapes d'amélioration** :
+
+| Fonctionnalité | Description | Impact |
+|----------------|-----------|--------|
+| **Logs centralisés avec Loki** | Intégrer **Loki + Promtail** pour collecter, stocker et visualiser les logs Flask dans Grafana. | Debugging en temps réel, corrélation logs/métriques |
+| **Alerting intelligent** | Configurer **Prometheus Alertmanager** → alertes Slack/Email en cas de CPU > 80%, pod crash, etc. | Réactivité opérationnelle 24/7 |
+| **Métriques applicatives custom** | Ajouter un endpoint `/metrics` dans Flask (via `prometheus_client`) → exposer : requêtes/s, latence, erreurs 500 | Observabilité métier complète |
+| **Déploiement Cloud (Azure AKS)** | Migrer de Minikube vers **Azure Kubernetes Service (AKS)** + **Azure Container Registry** | Scalabilité horizontale, haute disponibilité, coûts optimisés |
+
+> **Objectif final** : Un **observability stack complet** (métriques + logs + traces) sur **Azure Cloud**, avec **alerting proactif** et **métriques business**.
+
+---
+
+**Tu as posé les bases d’un système moderne, scalable et observable — prêt pour la production !**
