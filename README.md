@@ -57,7 +57,7 @@ paper-display-app/
   - Intégrations cloud-native
   - Fonctionnalités de production (health checks, rolling updates)
 
-### 3. **Pipeline CI/CD**
+### 3. **Pipeline CI/CD (Github Actions)** 
 - **Déclencheurs :** Push sur la branche main
 - **Étapes :**
   1. Linting du code (flake8)
