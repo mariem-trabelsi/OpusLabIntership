@@ -46,7 +46,7 @@ paper-display-app/
 - **Étape 1 (Builder) :** Installation des dépendances de manière isolée
 - **Étape 2 (Runtime) :** Copie uniquement des artefacts nécessaires
 - **Avantages :** 
-  - Réduction de la taille de l'image finale (~150MB vs ~900MB)
+  - Réduction de la taille de l'image finale
   - Sécurité améliorée (pas d'outils de build en production)
   - Temps de déploiement plus rapides
 
@@ -193,7 +193,7 @@ kubectl create namespace monitoring
 helm install prometheus-stack prometheus-community/kube-prometheus-stack \
   --namespace monitoring \
   --set grafana.adminPassword=admin123 \
-  --set prometheus.prometheusSpec.serviceMonitorSelectorNilUsesHelmValues=false
+  --set prometheus.prometheusSpec.serviceMonitorSelectorNilUsesHelmValues=true
 ```
 
 ![Vérification des pods](https://github.com/user-attachments/assets/503daa6c-ca68-4d57-b86a-563cdb1175cc)
