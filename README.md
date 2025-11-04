@@ -160,7 +160,7 @@ minikube service paper-display-service --url
 
 ![Image Docker Hub](https://github.com/user-attachments/assets/9ec2ec1a-2a25-460a-80cb-48bed40733f1)
 
-### Déploiement Kubernetes
+### Application déployée sur K8S
 
 ![Déploiement K8s](https://github.com/user-attachments/assets/3d806d5b-a91b-4645-b1cd-0a46970f9bda)
 
