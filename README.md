@@ -73,20 +73,22 @@ paper-display-app/
 - Docker Hub account
 ## Démo
 
-l'image de l'application :
+### l'image de l'application :
 <img width="1291" height="181" alt="cap1" src="https://github.com/user-attachments/assets/0c95818b-ad98-43b6-8fe5-8d1b18fbbc27" />
 
 <img width="1655" height="819" alt="cap2" src="https://github.com/user-attachments/assets/16c7e1f5-5647-46b1-9366-60a84ff65e4b" />
-création de dockerhub credentials dans le repo github
-<img width="853" height="671" alt="cap3" src="https://github.com/user-attachments/assets/ffeb63f0-e0fa-4b21-b84d-7aa0d816ca41" />
-création du pipeline ci-cd qui 
-<img width="902" height="727" alt="cap4" src="https://github.com/user-attachments/assets/61367d4c-60d0-477d-bffc-496d2057a572" />
+### création de dockerhub credentials dans le repo github
+<img width="683" height="278" alt="cap7" src="https://github.com/user-attachments/assets/8677bbb7-3d36-460a-90a9-c7b837f5a13d" />
 
+<img width="853" height="671" alt="cap3" src="https://github.com/user-attachments/assets/ffeb63f0-e0fa-4b21-b84d-7aa0d816ca41" />
+### création du pipeline ci-cd qui 
+<img width="902" height="727" alt="cap4" src="https://github.com/user-attachments/assets/61367d4c-60d0-477d-bffc-496d2057a572" />
+Echec dans le pipeline: problème d'accès au Dockerhub.
 <img width="1255" height="780" alt="cap5" src="https://github.com/user-attachments/assets/d98f3550-0b0c-4d46-8d80-fcb45d8d3ecb" />
 
 <img width="805" height="441" alt="cap6" src="https://github.com/user-attachments/assets/6ec11485-3c26-45a8-9b34-1ff3734c117c" />
 
-<img width="683" height="278" alt="cap7" src="https://github.com/user-attachments/assets/8677bbb7-3d36-460a-90a9-c7b837f5a13d" />
+
 
 <img width="1164" height="422" alt="cap8" src="https://github.com/user-attachments/assets/afda63a7-3d42-4310-b702-89e928392f15" />
 
