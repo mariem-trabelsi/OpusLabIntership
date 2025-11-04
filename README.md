@@ -122,6 +122,8 @@ docker run -p 5000:5000 paper-display-app
 
 ![Pipeline corrigé](https://github.com/user-attachments/assets/afda63a7-3d42-4310-b702-89e928392f15)
 
+### Vérification de l'image dans Docker Hub
+
 ![Pipeline réussi](https://github.com/user-attachments/assets/1febc4bc-4388-45fe-acbf-37e17a9fd9bf)
 
 ![Logs de build](https://github.com/user-attachments/assets/925d529f-cdd2-4b2a-866d-4ef515fa1e55)
