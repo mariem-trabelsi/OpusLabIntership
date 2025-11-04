@@ -98,7 +98,8 @@ docker run -p 5000:5000 paper-display-app
 
 ![Construction Docker](https://github.com/user-attachments/assets/0c95818b-ad98-43b6-8fe5-8d1b18fbbc27)
 
-![Application en cours d'exécution](https://github.com/user-attachments/assets/16c7e1f5-5647-46b1-9366-60a84ff65e4b)
+
+<img width="1711" height="673" alt="image" src="https://github.com/user-attachments/assets/5c2b225a-75b7-4bb6-a229-7c10607a9fd5" />
 
 
 
