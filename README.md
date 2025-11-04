@@ -126,6 +126,20 @@ docker run -p 5000:5000 paper-display-app
 
 ![Pipeline réussi](https://github.com/user-attachments/assets/1febc4bc-4388-45fe-acbf-37e17a9fd9bf)
 
+### Kubernetes (k8s) – Local avec Minikube
+
+**Installation**
+```bash
+# Minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+# kubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+sudo install kubectl /usr/local/bin/kubectl
+```
+**Déploiement**
+
 ![Logs de build](https://github.com/user-attachments/assets/925d529f-cdd2-4b2a-866d-4ef515fa1e55)
 
 ![Étapes de déploiement](https://github.com/user-attachments/assets/921cbdf2-8fa9-416a-b4fd-5d42320495f7)
