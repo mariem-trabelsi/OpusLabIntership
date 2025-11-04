@@ -114,9 +114,11 @@ docker run -p 5000:5000 paper-display-app
 
 ![Secrets GitHub](https://github.com/user-attachments/assets/8677bbb7-3d36-460a-90a9-c7b837f5a13d)
 
+![Détails de l'erreur](https://github.com/user-attachments/assets/6ec11485-3c26-45a8-9b34-1ff3734c117c)
+
 ![Configuration des secrets](https://github.com/user-attachments/assets/ffeb63f0-e0fa-4b21-b84d-7aa0d816ca41)
 
-![Détails de l'erreur](https://github.com/user-attachments/assets/6ec11485-3c26-45a8-9b34-1ff3734c117c)
+
 
 ### Résolution et succès du pipeline
 
